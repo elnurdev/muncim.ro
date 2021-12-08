@@ -1,0 +1,287 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #CACACA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 18px;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 5px 21px 4px 21px;
+  color: #000;
+}
+
+.btn img {
+  margin: 0 0 0 8px;
+}
+
+.header .main-header {
+  padding: 26px 0 28px 0;
+  border-bottom: 1px solid #000;
+}
+
+.header .main-header .header-navigation__items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0 0 47px 0;
+}
+
+.header .main-header .header-navigation__items .header-navigation__item {
+  list-style: none;
+  margin: 0 12px 0 0;
+}
+
+.header .main-header .header-navigation__items .header-navigation__item .header-navigation__link {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  background: rgba(202, 202, 202, 0.6);
+  border: 1px solid #000000;
+  border-radius: 100px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #000;
+}
+
+.header .main-header .header-navigation__items .header-navigation__item .header-navigation__link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.header .main-header .header-navigation__items .header-navigation__item .active {
+  background-color: #000;
+  color: #fff;
+}
+
+.header .main-header .header-navigation__items .btn {
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 24px;
+  background-color: #99FF91;
+}
+
+.header .main-header .header-image__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .main-header .header-image__logo img {
+  width: 95%;
+}
+
+.subtitle-section .main-subtitle__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 62px 0;
+  border-bottom: 1px solid #000;
+}
+
+.subtitle-section .main-subtitle__section-info .main-subtitle__item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.subtitle-section .main-subtitle__section-info .main-subtitle__title {
+  font-weight: 700;
+  font-size: 98px;
+  line-height: 98px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin: 27px 0 9px 0;
+  color: #000;
+}
+
+.subtitle-section .main-subtitle__section-info .main-subtitle__subtitle {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000;
+}
+
+.subtitle-section .main-subtitle__section-info .main-subtitle__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 19px 0 38px;
+}
+
+.subtitle-section .main-subtitle__section-info .btn {
+  background-color: #99FF91;
+}
+
+.information-section {
+  padding: 70px 0 0 0;
+}
+
+.information-section .main-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 127px 0;
+  border-bottom: 1px solid #000;
+}
+
+.information-section .main-information .main-information__item {
+  padding: 0 102px 0 0;
+}
+
+.information-section .main-information .main-information__item .mian-information__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: 0 0 36px 0;
+}
+
+.information-section .main-information .main-information__item .main-information__subtitle {
+  width: 60%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 0.5px;
+}
+
+.information-section .main-information .main-information__item .main-information__paragraph {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  margin: 0 0 44px 0;
+}
+
+.information-section .main-information .main-information__item .main-information__blog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 16px 0;
+  border: 1px solid #333333;
+  border-radius: 36px;
+  padding: 24px 0 9px 17px;
+}
+
+.information-section .main-information .main-information__item .main-information__blog .main-information__blog-info {
+  padding: 0 0 0 22px;
+}
+
+.information-section .main-information .main-information__item .main-information__blog .main-information__blog-info .main-information__blog-title {
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  margin: 0 0 14px 0;
+}
+
+.information-section .main-information .main-information__item .main-information__blog .main-information__blog-info .main-information__blog-subtitle {
+  width: 85%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.information-section .main-information .register {
+  width: 95%;
+}
+
+.information-section .main-information .register .main-information__register {
+  background: -webkit-gradient(linear, left top, left bottom, from(#99FF91), to(#61D1F2));
+  background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
+  border: 1px solid #333333;
+  padding: 49px;
+  border-radius: 36px;
+}
+
+.information-section .main-information .register .main-information__register .mian-information__register-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  margin: 0 0 4px 0;
+}
+
+.information-section .main-information .register .main-information__register .mian-information__register-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  margin: 0 0 99px 0;
+}
+
+.information-section .main-information .register .main-information__register .register__line {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+.information-section .main-information .register .main-information__register .opacity {
+  opacity: 0.5;
+}
+
+.information-section .main-information .register .main-information__register #line {
+  margin: 82px 0 0 0;
+}
+
+.information-section .main-information .register .main-information__register .register-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 0 35px 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  margin: 46px 0 0 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1px;
+  background-color: #000;
+}
+/*# sourceMappingURL=style.css.map */
